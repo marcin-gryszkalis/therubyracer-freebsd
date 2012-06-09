@@ -4,7 +4,8 @@ require "v8/version"
 require 'pathname'
 
 Gem::Specification.new do |s|
-  s.name = s.rubyforge_project = "therubyracer"
+  s.name = "therubyracer-freebsd"
+  s.rubyforge_project = "therubyracer"
   s.summary = "Embed the V8 Javascript interpreter into Ruby"
   s.version = V8::VERSION
   s.authors = ["Charles Lowell", "Bill Robertson"]
@@ -18,7 +19,7 @@ Gem::Specification.new do |s|
   s.extensions = ["ext/v8/extconf.rb"]
   s.require_paths = ["lib", "ext"]
 
-  s.add_dependency "libv8", "~> 3.3.10"
+  s.add_dependency "libv8-freebsd", "~> 3.3.10"
 
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec", "~> 2.0"
