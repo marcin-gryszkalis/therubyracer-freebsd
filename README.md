@@ -4,4 +4,6 @@ This version of [therubyracer](https://github.com/cowboyd/therubyracer) fix free
 
 To use add following line to your Gemfile
 
-    gem 'therubyracer-freebsd'
+    gem 'therubyracer', git: "git://github.com/madmax/therubyracer-freebsd.git"
+
+Remember to uninstall v8 port from system.
