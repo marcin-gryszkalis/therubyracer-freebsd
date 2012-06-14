@@ -4,7 +4,7 @@ require "v8/version"
 require 'pathname'
 
 Gem::Specification.new do |s|
-  s.name = "therubyracer-freebsd"
+  s.name = "therubyracer"
   s.rubyforge_project = "therubyracer"
   s.summary = "Embed the V8 Javascript interpreter into Ruby"
   s.version = V8::VERSION
